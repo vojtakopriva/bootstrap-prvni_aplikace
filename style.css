@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+html {
+    font-family: 'Roboto Slab'
+}
+.check {
+    border: 3px solid red;
+}
+
+nav {
+    font-family: 'Montserrat';
+    position: fixed
+}
+
+nav li {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse
+}
+
+a.navbar-brand {
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1.4rem;
+}
+
+a.navbar-brand:link,
+a.navbar-brand:visited {
+    color: #fed136
+}
+.my-jumbotron {
+    color: #fff;
+    background-image: url(../img/header-bg.jpg);
+    height: 900px;
+    background-position: center;
+    background-color: transparent;
+}
+
+.my-jumbotron h1 {
+    font-size: 3rem;
+    font-family: 'Droid Serif';
+    margin: 30px 0
+}
+
+.my-jumbotron h2 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0
+}
+
+.my-jumbotron a {
+    height: 50px;
+    width: 200px;
+    background-color: #fed136;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 30px 0
+}
+
+.my-jumbotron a:hover {
+    background-color: #fed136
+}
+p {
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    color: grey
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nadpis {
+    margin: 0 0 70px 0
+}
+.nadpis h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 200px 0 20px 0
+}
+
+.services .col-sm-4 {
+    margin: 15px 0;
+}
+
+.services i {
+    width: 150px;
+    height: 150px;
+    background-color: #fed136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: #fff;
+    
+}
+.services i,
+.services h3 {
+    margin: 10px 0;
+}
+
+.portfolio .row {
+    margin: 30px 0
+}
+
+.item h2 {
+    font-weight: bold;
+    margin: 15px 0 3px 0
+}
+
+.nadpis {
+    margin: 0 0 30px 0;
+}
+
+.nadpis p {
+    color: grey;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    font-size: 1rem;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about .nadpis p {
+    font-size: 1rem;
+}
+.about-inner {
+    height: 700px;
+    width: 900px;
+    position: relative;
+}
+.about .row {
+    margin: 100px 0;
+}
+.about img {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #dee2e6;
+    
+}
+
+.about h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.about p {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+}
+.about .cara {
+    height: 700px;
+    width: 900px;
+    position: absolute;
+}
+.about .cara div {
+    height: 220px;
+    width: 1px;
+    background-color: #dee2e6;
+    position: absolute;
+    z-index: -10;
+}
+
+.team-item img {
+    border: 5px solid #dee2e6;
+    width: 180px;
+    margin: 15px 0;
+}
+.team-item {
+    margin: 70px 0;
+}
+.social a:link,
+.social a:visited {
+    border-radius: 50%;
+    background-color: #212529;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5px 10px;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+.ads {
+    margin: 30px 0;
+}
+form {
+    background-image: url(../img/map-image.png);
+    background-color: black;
+    height: 700px;
+}
+form .nadpis {
+    color: white;
+    margin: -80px 0 0 0;
+}
+input,
+textarea {
+    margin: 30px 0;
+}
+input.form-control {
+    height: 60px
+}
+textarea {
+    height: inherit;
+    padding: 10px;
+}
+
+
+.my-button {
+    margin: 20px 0;
+    height: 50px;
+    background-color: #fed136;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+}
+
+.my-button:hover {
+    color: #fff;
+    background-color: #fed136;
+    border: none;
+}
